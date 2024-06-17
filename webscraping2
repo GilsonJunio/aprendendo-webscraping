@@ -1,0 +1,15 @@
+BeautifulSoup library
+requests library
+
+REQUESTS
+requests.get() // requisita paginas em html
+
+
+BEAUTIFUL SOUP
+BeautifulSoup(var,"html.parser") //passa codigo html para var
+.find(class_=""|id="") // encontra a primeira instancia do argumento passado
+.find().text.strip() //encontra o argumento passado, filtrando texto e removendo caracteres invisiveis
+.findAll()
+.prettify() // identa o codigo
+
+ZIP
